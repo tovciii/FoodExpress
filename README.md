@@ -1,2 +1,2 @@
 # FoodExpress
-Projekti ne Lab2 
+Mirësevini në FoodExpress, destinacioni juaj i preferuar për një shërbim të shpejtë dhe cilësi të lartë ushqimore. Ne sjellim një përzierje të mrekullueshme të kuzhinave të botës në pragun tuaj, duke ofruar një gamë të gjerë të ushqimeve të freskëta dhe të shijshme. Nga pizzat e klasa e parë deri te specialitetet autentike, çdo gëzim kulinare është vetëm disa klikime larg. Bashkohuni me ne për një eksperiencë të pakrahasueshme gastronomike, ku shërbimi i shpejtë dhe cilësia e shkëlqyer janë përparësi absolute. Porositani tani dhe bëhuni pjesë e një rrjeti të madh të shijes!
