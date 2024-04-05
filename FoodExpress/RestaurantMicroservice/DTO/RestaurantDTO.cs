@@ -1,4 +1,6 @@
-﻿namespace FoodExpress.RestaurantMicroservice.DTO
+﻿using FoodExpress.MenuMicroservice.DTO;
+
+namespace FoodExpress.RestaurantMicroservice.DTO
 {
     public class RestaurantDTO
     {
