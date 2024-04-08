@@ -1,3 +1,5 @@
+using FoodExpress.DriverMicroservice.Data;
+using FoodExpress.DriverMicroservice.Services;
 using FoodExpress.MenuMicroservice.Services;
 using FoodExpress.RelationData;
 using FoodExpress.RestaurantMicroservice.Services;
@@ -11,6 +13,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<UserDbContext>(options =>
 options.UseMySQL(builder.Configuration.GetConnectionString("MySQLCS")));
 
+builder.Services.AddDbContext<DriverDbContext>(options =>
+options.UseMySQL(builder.Configuration.GetConnectionString("MySQLCS")));
+
 builder.Services.AddDbContext<DataContext>(options =>
 options.UseMySQL(builder.Configuration.GetConnectionString("MySQLCS")));
 
@@ -19,6 +24,7 @@ options.UseMySQL(builder.Configuration.GetConnectionString("MySQLCS")));
 builder.Services.AddScoped<IRestaurantServices, RestaurantServices>();
 builder.Services.AddScoped<IMenuServices, MenuServices>();
 builder.Services.AddScoped<IUserServices, UserServices>();
+builder.Services.AddScoped<IDriverServices, DriverServices>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
